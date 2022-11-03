@@ -35,3 +35,4 @@ Console.WriteLine($"число {max1} самое большое");
 
 }
 
+
