@@ -1,5 +1,11 @@
 ﻿Console.WriteLine("Введите пятизначное число");
 int number = Convert.ToInt32(Console.ReadLine());
+
+if(number >= 10000 && number <= 99999)
+{
+
+
+
 void ThirdNum(int num)
 {
     int a = num /10000;
@@ -18,3 +24,10 @@ void ThirdNum(int num)
 }
  
 ThirdNum(number);
+
+}
+
+else
+{
+   Console.WriteLine("это не пятизначное число");
+}
